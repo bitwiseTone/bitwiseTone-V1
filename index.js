@@ -28,5 +28,5 @@ app.get("/signup", function(req, res){
 })
 
 app.listen(process.env.PORT, () => {
-    console.log(`app listening on port ${port}`)
+    console.log(`app listening succesfully`)
 })
