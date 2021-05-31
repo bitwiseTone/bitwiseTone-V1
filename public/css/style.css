@@ -1,0 +1,406 @@
+html {
+    scroll-behavior: smooth;
+    background-color: #faf2da;
+}
+
+body {
+    font-family: "Raleway";
+    text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Alata";
+}
+
+em {
+    color: white;
+    font-size: 90%;
+}
+
+p {
+    color: grey;
+    font-weight: 500;
+}
+
+
+/*Headings*/
+
+.big-heading {
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 400;
+    color: white;
+}
+
+
+/*Containers*/
+#title .container-fluid {
+    padding: 3% 6% 6%;
+}
+
+#title-all .container-fluid-all {
+    padding: 2% 6%;
+}
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+
+/*Navigation bar*/
+
+.navbar-brand {
+    font-family: "Alata";
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.navbar {
+    padding: 0 0 4rem;
+    z-index: 1;
+}
+
+#navbar-all {
+    padding: 0;
+}
+
+.navbar-item {
+    padding: 0 16px;
+}
+
+.nav-link {
+    font-size: 1.2 rem;
+}
+
+/*Buttons*/
+
+.btn-signup {
+    background-color: #e28f83;
+    color: white;
+}
+
+.btn-signup:hover {
+    background-color: #cf796b;
+    color: white;
+}
+
+.btn-signup-outline {
+    border-color: #e28f83;
+    border-width: 1px;
+    color: #e28f83;
+}
+
+.btn-signup-outline:hover {
+    background-color: #e28f83;
+    ;
+    color: white;
+}
+
+.btn-signup-outline-navbar {
+    border-color: #faf2da;
+    border-width: 3px;
+    color: #faf2da;
+}
+
+
+.btn-signup-outline-navbar:hover {
+    background-color: #faf2da;
+    color: #8e9775;
+}
+
+.btn-contact-outline {
+    border-color: #faf2da;
+    border-width: 1px;
+    color: #faf2da;
+}
+
+.btn-contact-outline:hover {
+    background-color: #faf2da;
+    border-width: 1px;
+    color: #8e9775;
+}
+
+.navbar-button {
+    margin: 5% 3% 5% 0;
+}
+
+/*Title Section*/
+#title {
+    background-color: #8e9775;
+    /*    Untuk membuat khusus left*/
+    text-align: left;
+}
+
+#title-all {
+    background-color: #8e9775;
+    /*    Untuk membuat khusus left*/
+    text-align: left;
+}
+
+
+/*title image*/
+
+.title-image {
+    width: 50%;
+    /*    Diputar*/
+    transform: rotate(10deg);
+    position: absolute;
+    right: 30%;
+    bottom: -50%;
+}
+
+
+.title {
+    margin: auto;
+}
+
+/*Features Section*/
+
+#features {
+    background-color: #faf2da;
+    position: relative;
+    /*    untuk menutup gambar atau tidak perlu juga bisa pakai z-index*/
+    z-index: 1;
+}
+
+.features-list {
+    padding: 5%;
+    color: #4a503d;
+}
+
+.feature-title {
+    font-weight: light;
+}
+
+.icon {
+    color: #8e9775;
+    margin-bottom: 10px;
+}
+
+.icon:hover {
+    color: #4a503d;
+}
+
+/*Testimonials*/
+
+#testimonials {
+    background-color: #4a503d;
+}
+
+.image-testimonials {
+    width: 80px;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.testimonials-text {
+    color: white;
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+
+/*Untuk memperluas panah carousel*/
+.carousel-item {
+    padding: 7% 15%;
+}
+
+/*Press*/
+#press {
+    background-color: #4a503d;
+
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/*Price*/
+
+#pricing {
+    padding: 100px;
+    background-color: #faf2da;
+}
+
+.price-title {
+    color: #4a503d;
+    font-weight: bolder;
+    font-family: "Alata";
+
+}
+
+.price-subtitle {
+    font-family: "Alata";
+    font-size: 20px;
+}
+
+
+.card-text {
+    color: #4a503d;
+    font-weight: bolder;
+    font-family: "Alata";
+
+}
+
+.card-title {
+    font-weight: light;
+    color: #fffdf6;
+    padding-top: 7px;
+}
+
+.card-body {
+    background-color: #fffbf0;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+.card-header {
+    background-color: #8e9775;
+}
+
+.thead-color {
+    background-color: #8e9775;
+    color: #fffdf6;
+}
+
+.table-change {
+    margin-top: 100px;
+}
+
+.tbody-color {
+    background-color: #fffdf6;
+}
+
+/*Call to Action*/
+#cta {
+    background-color: #8e9775;
+    color: white;
+}
+
+.cta-title {
+    font-family: "Alata";
+    font-size: 3.5rem;
+    padding: 2%;
+    line-height: 1.5;
+}
+
+.btn-cta {
+    font-family: "Raleway";
+    font-weight: 900;
+    margin: 2%;
+}
+
+
+/*Footer*/
+
+.icon-footer {
+    margin: 20px 10px;
+}
+
+#footer {
+    background-color: #faf2da;
+}
+
+/* projects */
+
+#projects {
+    justify-content: center;
+    align-items: center;
+    padding: auto;
+    background-color: #faf2da;
+}
+
+.img-project {
+    width: 100%;
+    padding: 20px;
+    margin-top: 100px;
+}
+
+.row-projects {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+/* Contact */
+
+#contact {
+    justify-content: center;
+    align-items: center;
+    padding: auto;
+    background-color: #faf2da;
+}
+
+.display-icon { 
+    font-size: 1.5rem;
+}
+.display-icon {
+    padding: 10px;
+    justify-content: center;
+}
+
+
+.contact-text {
+    font-size: 2rem;
+}
+
+/* Signup */
+
+#signup {
+    justify-content: center;
+    align-items: center;
+    padding: auto;
+    display: flex;
+    background-color: #faf2da;
+}
+
+.form-signin {
+  width: 100%;
+  padding: 15px;
+  margin-top: 10px;
+  justify-content: center;
+  background-color: #faf2da;
+}
+.form-signin .checkbox {
+  font-weight: 400;
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="confirm-password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.form-signin input[type="password"] {
+    border-radius: 0;
+  }
+
+/*ketika dibawah 992px kembali posis statis*/
+@media (max-width: 992px) {
+    .title-image {
+        position: static;
+        transform: rotate(-15deg)
+    }
+}
