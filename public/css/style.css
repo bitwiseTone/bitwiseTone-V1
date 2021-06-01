@@ -85,7 +85,7 @@ p {
 }
 
 .btn-signup:hover {
-    background-color: #cf796b;
+    background-color: #ad8882;
     color: white;
 }
 
@@ -97,7 +97,6 @@ p {
 
 .btn-signup-outline:hover {
     background-color: #e28f83;
-    ;
     color: white;
 }
 
@@ -143,7 +142,7 @@ p {
 }
 
 
-/*title image*/
+/*image*/
 
 .title-image {
     width: 50%;
@@ -154,11 +153,20 @@ p {
     bottom: -50%;
 }
 
+.image-div{
+    display: flex;
+}
 
 .title {
     margin: auto;
+    
 }
 
+.image-logo {
+    width: 10%;
+    margin-right: 4px;
+    justify-content: center;
+}
 /*Features Section*/
 
 #features {
@@ -364,12 +372,20 @@ p {
 }
 
 .form-signin {
-  width: 100%;
+  width: 50%;
   padding: 15px;
   margin-top: 10px;
+  margin: auto;
   justify-content: center;
   background-color: #faf2da;
 }
+
+.text-signup {
+    width: 50%;
+    margin: auto;
+    margin-bottom: 2rem;
+}
+
 .form-signin .checkbox {
   font-weight: 400;
 }
@@ -396,6 +412,9 @@ p {
 .form-signin input[type="password"] {
     border-radius: 0;
   }
+
+  
+
 
 /*ketika dibawah 992px kembali posis statis*/
 @media (max-width: 992px) {
